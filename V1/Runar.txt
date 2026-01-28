@@ -18,16 +18,12 @@
 5.  As a petowner i need to know if the hotel i am going to allow pets or not, so i can know if i can bring them or not. 
 
 
-6.  As a customer that is looking for a vaction i want to know if the hotel has a amenities such as a pool, so i know i can
+6.  As a customer that is looking for a vaction i want to know if the hotel has a amenities such as a pool and wifi, so i know i can
     relax properly at that hotel. 
 
 7.  As a customer i want the price to be one the first thing i see when looking at a hotel i am thinking of staying at,
     i want to know what price i am paying before looking at other things. 
 
 
-8.  As a customer i want to know if there is free wifi at the hotel i am going to, so i can know if i have to buy 
-    it or get more wifi use on my phone.
-
-
-9.  As a customer who i looking for a longer stay i want to know if the hotel is a day stay or longer, so i don't accidently
-    book a single day.     
+8.  As a customer who is looking for a longer stay i want to know be able to see hotels that offer longer stays, so i can go
+    to hotels that don't offer that.
