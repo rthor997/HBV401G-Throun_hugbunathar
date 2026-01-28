@@ -1,3 +1,5 @@
 1. As a customer, I want to know whether the hotel I'll be staying at includes meals, so I know whether I'll have to seek alternatives on my own.
 
 2. As a customer, I want to see reviews of the food available at the hotel I will be staying at, so I can know in advance whether I want to eat there.
+
+3. As a customer, I want to be able to see previous bookings I have made, so that I can consider them for future stays.
