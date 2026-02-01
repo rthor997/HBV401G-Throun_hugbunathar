@@ -2,12 +2,13 @@
 1. I'm a trip planner, I'd like to see the places with the most Room's available,
 so i can easily book accomidation for the large groups i oversee.
 
-2.I'm a big saver, i'd like to be able to see and sort places based on Prices,
+2.I'm a customer, i'd like to be able to see and sort places based on Prices,
 so i can save some money for other things on my trips or go big and get a luxary room once in a while.
 
-3. I'm a manager, id like to keep track of current bookings, so there is less chance of conflict of bookings.
+3. I'm a manager, i'd like to keep track of current bookings, so there is less chance of conflict of bookings.
 
-4. I'm a family man, I'd like to be able to see how many bed's are in the room im booking,
+4. I'm a customer, I'd like to be able to see how many bed's are in the room im booking,
 so i can be sure the room can accomidate my family.
 
-5.
+5. I'm a customer, i'd like to have the option of a late checkout when i book my stay, as most departures to my country are later in the day
+
