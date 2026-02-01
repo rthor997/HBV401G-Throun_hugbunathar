@@ -1,0 +1,9 @@
+1. As a customer, I want to search hotels by check-in and check-out dates, so that I only see hotels that actually have availability for my travel dates.
+
+2. As a customer, I want to specify the number of guests (and number of rooms if needed) in my search, so that the results only include hotels/rooms that can accommodate my group size.
+
+3.As a customer, I want to reserve a specific room (or room type) for my chosen dates, so that I can secure accommodation instead of just browsing options.
+
+4. As a customer, I want to receive a booking confirmation with a unique reference ID and the full booking details (dates, hotel, room, guests, total price), so that I can verify my reservation and use the reference for check-in or support.
+
+5. As the hotel booking system, I want to prevent double-booking by rejecting reservation requests when remaining inventory is insufficient, so that availability stays accurate even if multiple users try to book at the same time.
