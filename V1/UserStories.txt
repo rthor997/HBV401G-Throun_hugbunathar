@@ -1,5 +1,66 @@
 ;; Látum stories hingað þegar allir eru búnir.
 ;; Hinn skjölin verða eytt þegar við erum búinn.
+## User stories fannsi (endilega eyða einnhverjum duplicates) 
+
+1. I'm a trip planner, I'd like to see the places with the most Room's available,
+so i can easily book accomidation for the large groups i oversee.
+
+2.I'm a customer, i'd like to be able to see and sort places based on Prices,
+so i can save some money for other things on my trips or go big and get a luxary room once in a while.
+
+3. I'm a manager, i'd like to keep track of current bookings, so there is less chance of conflict of bookings.
+
+4. I'm a customer, I'd like to be able to see how many bed's are in the room im booking,
+so i can be sure the room can accomidate my family.
+
+5. I'm a customer, i'd like to have the option of a late checkout when i book my stay, as most departures to my country are later in the day
+
+## User Stories Runar
+
+1.  As a customer i want to be able to see all options of hotels for the area i will be going to,
+    so i can prepare and plan my trip properly.
+
+2.  As a customer i want to be able to see inside the hotel room i am trying to book,
+    so i know what type of room i will be bookin. 
+
+3.  As a customer i want to be able to see the reviews of the hotel i want to stay at, so i can see if they are 
+    real.
+    
+4.  As a customer i need to be able to get my receipt of the place i booked myself into, 
+    so i can prove that i booked that room.
 
 
+5.  As a petowner i need to know if the hotel i am going to allow pets or not, so i can know if i can bring them or not. 
 
+6.  As a customer that is looking for a vaction i want to know if the hotel has a amenities such as a pool and wifi, so i know i can
+    relax properly at that hotel. 
+
+7.  As a customer i want the price to be one the first thing i see when looking at a hotel i am thinking of staying at,
+    i want to know what price i am paying before looking at other things. 
+
+8.  As a customer who is looking for a longer stay i want to know be able to see hotels that offer longer stays, so i can go
+    to hotels that don't offer that.
+
+## User stories Dagur
+
+1. As a customer, I want to know whether the hotel I'll be staying at includes meals, so I know whether I'll have to seek alternatives on my own.
+
+2. As a customer, I want to see reviews of the food available at the hotel I will be staying at, so I can know in advance whether I want to eat there.
+
+3. As a customer, I want to be able to see previous bookings I have made, so that I can consider them for future stays.
+
+4. As a customer, I want to be able to filter hotel searches by location, so I can stay in the area I want.
+
+5. As a customer, I want to be able to filter hotel searches by popularity, because I trust popular opinion to find quality hotels.
+
+## User stories Alexander
+
+1. As a customer, I want to search hotels by check-in and check-out dates, so that I only see hotels that actually have availability for my travel dates.
+
+2. As a customer, I want to specify the number of guests (and number of rooms if needed) in my search, so that the results only include hotels/rooms that can accommodate my group size.
+
+3.As a customer, I want to reserve a specific room (or room type) for my chosen dates, so that I can secure accommodation instead of just browsing options.
+
+4. As a customer, I want to receive a booking confirmation with a unique reference ID and the full booking details (dates, hotel, room, guests, total price), so that I can verify my reservation and use the reference for check-in or support.
+
+5. As the hotel booking system, I want to prevent double-booking by rejecting reservation requests when remaining inventory is insufficient, so that availability stays accurate even if multiple users try to book at the same time.
