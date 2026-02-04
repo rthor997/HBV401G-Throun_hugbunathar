@@ -4,3 +4,4 @@
 - Rúnar Þór Árnason - rta3@hi.is
 - Dagur Ingi Víðar - div6@hi.is
 - Fannar Örn Ragnarsson - for5@hi.is
+- Alexander Óðinn Knudsen - aok12@hi.is
