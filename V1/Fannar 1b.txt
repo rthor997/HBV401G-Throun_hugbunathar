@@ -1,0 +1,25 @@
+# Fannar 1b
+
+1. 20, A good amount of work would be needed to ensure the search/filter system works good and is seamless 
+
+2. 5, would not be too hard, files would have to be formatted and stored correctly
+
+3. 2, could have a template that is filled with the information of the booking and sent via email
+
+4. 1/2, could be implemented as a tag in the Database
+
+5. 8, Rooms would have to be available/unavailable if others have booked those days or have reserved those rooms
+
+6. 3, it would have to show all booked rooms individualy 
+
+7. 1/2, just display the tag of rooms present in the DB
+
+8. 2, have a tag in booking DB for late checkout (might cause problems)
+
+9. 13, would need separate DB for reviews and or use an API from something like Google or Tripadvisor
+
+10. 3, display previous bookings matching the customers Email or unique ID
+
+11. 3, have a tag that removes rooms from available to reserved, not quite to booked
+
+12. 1, should not take long if rooms are tagged correctly in the database and conflicts are handled correctly
