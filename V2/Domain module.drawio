@@ -1,23 +1,26 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.5.2">
   <diagram name="Page-1" id="eGIvjc8TSTPHyLK-DFBV">
-    <mxGraphModel dx="823" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="901" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ZiJGhxOkhKcbTkGxIXiT-3" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" target="ZiJGhxOkhKcbTkGxIXiT-4" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="300" y="220" as="sourcePoint" />
-            <mxPoint x="390" y="270" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="ZiJGhxOkhKcbTkGxIXiT-4" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;id: String&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;&quot;&gt;name: String&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;email: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;previousBookings: List&amp;lt;Booking&amp;gt;&lt;/span&gt;&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="170" x="940" y="830" as="geometry" />
         </mxCell>
-        <mxCell id="ZiJGhxOkhKcbTkGxIXiT-4" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
-          <mxGeometry height="150" width="150" x="400" y="90" as="geometry" />
+        <mxCell id="ZiJGhxOkhKcbTkGxIXiT-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Customer" vertex="1">
+          <mxGeometry height="30" width="170" x="940" y="800" as="geometry" />
         </mxCell>
-        <mxCell id="ZiJGhxOkhKcbTkGxIXiT-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
-          <mxGeometry height="30" width="150" x="400" y="90" as="geometry" />
+        <mxCell id="ZiJGhxOkhKcbTkGxIXiT-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 10px;&quot;&gt;addBooking(Booking booking)&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot; face=&quot;Helvetica&quot;&gt;getPreviousBookings() : List&amp;lt;Booking&amp;gt;&lt;/font&gt;&lt;span style=&quot;font-family: monospace; font-size: 9px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="940" y="1000" as="geometry" />
         </mxCell>
-        <mxCell id="ZiJGhxOkhKcbTkGxIXiT-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
-          <mxGeometry height="30" width="150" x="400" y="210" as="geometry" />
+        <mxCell id="mT_IOJ7CDq_5JunQXz02-6" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;id: String&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;name: String&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;font size=&quot;1&quot;&gt;location: String&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;allowsPets: Boolean&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;font size=&quot;1&quot;&gt;amenities: List&amp;lt;String&amp;gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;rooms: List&amp;lt;Room&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;reviews:&amp;nbsp; List&amp;lt;Review&amp;gt;&lt;/span&gt;:&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="170" x="1230" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="mT_IOJ7CDq_5JunQXz02-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Hotel" vertex="1">
+          <mxGeometry height="30" width="170" x="1230" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="mT_IOJ7CDq_5JunQXz02-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 10px;&quot;&gt;addRoom(Room room)&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;1&quot; face=&quot;Helvetica&quot;&gt;addReview(Review review&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="1230" y="1000" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
