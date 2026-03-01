@@ -78,8 +78,7 @@
         <mxCell id="Ca7dqOzyg-RY5VkRo6NH-4" edge="1" parent="1" source="3R4THzl1qE5urAU3EPJZ-19" style="endArrow=diamond;startArrow=diamond;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;startFill=1;endFill=0;" target="3R4THzl1qE5urAU3EPJZ-7" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="1170" y="720" />
-              <mxPoint x="1350" y="720" />
+              <mxPoint x="1170" y="770" />
             </Array>
             <mxPoint x="1160" y="1040" as="sourcePoint" />
             <mxPoint x="1360" y="720" as="targetPoint" />
