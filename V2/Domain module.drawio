@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.0">
   <diagram name="Page-1" id="eGIvjc8TSTPHyLK-DFBV">
-    <mxGraphModel dx="182" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="301" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,7 +19,7 @@
         <mxCell id="mT_IOJ7CDq_5JunQXz02-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Hotel" vertex="1">
           <mxGeometry height="30" width="170" x="1230" y="800" as="geometry" />
         </mxCell>
-        <mxCell id="mT_IOJ7CDq_5JunQXz02-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 10px;&quot;&gt;addRoom(Room room)&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;1&quot; face=&quot;Helvetica&quot;&gt;addReview(Review review&lt;/font&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="mT_IOJ7CDq_5JunQXz02-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 10px;&quot;&gt;addRoom(Room room)&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;1&quot; face=&quot;Helvetica&quot;&gt;addReview(Review review)&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="170" x="1230" y="1000" as="geometry" />
         </mxCell>
         <mxCell id="leawGHQ9uJssxmE2gwLs-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;roomNumber: Integer&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;&quot;&gt;booked: boolean&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;roomType: String&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;balcony: boolean&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;numberOfBeds: Integer&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;numberOfRooms: Integer&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;kitchen: Boolean&lt;/span&gt;&lt;/div&gt;" vertex="1">
@@ -46,7 +46,7 @@
         <mxCell id="leawGHQ9uJssxmE2gwLs-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Review" vertex="1">
           <mxGeometry height="30" width="170" x="1440" y="1100" as="geometry" />
         </mxCell>
-        <mxCell id="leawGHQ9uJssxmE2gwLs-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 10px;&quot;&gt;addReview(Review review)&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot; face=&quot;Helvetica&quot;&gt;getPreviousBookings() : List&amp;lt;Booking&amp;gt;&lt;/font&gt;&lt;span style=&quot;font-family: monospace; font-size: 9px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="leawGHQ9uJssxmE2gwLs-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;getReview() : Review&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="170" x="1440" y="1300" as="geometry" />
         </mxCell>
       </root>
