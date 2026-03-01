@@ -66,7 +66,7 @@
         <mxCell id="3R4THzl1qE5urAU3EPJZ-22" parent="3R4THzl1qE5urAU3EPJZ-19" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ bookRoom(Integer roomNumber)&lt;div&gt;+ isbooked(): Boolean&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&amp;nbsp;&lt;/span&gt;getNumberOfRooms(): Integer&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&amp;nbsp;&lt;/span&gt;getRoomType(): String&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ hasBalcony&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ getNumberOfBeds(): Integer&lt;/div&gt;&lt;div&gt;+ hasKitchen(): Boolean&lt;/div&gt;&lt;div&gt;+ getImages(): List&amp;lt;String&amp;gt;&lt;/div&gt;&lt;div&gt;+ getPricePerDay(): Double&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="162" width="220" y="168" as="geometry" />
         </mxCell>
-        <mxCell id="Ca7dqOzyg-RY5VkRo6NH-3" edge="1" parent="1" source="3R4THzl1qE5urAU3EPJZ-11" style="endArrow=diamond;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;startFill=1;endFill=0;" target="3R4THzl1qE5urAU3EPJZ-7" value="">
+        <mxCell id="Ca7dqOzyg-RY5VkRo6NH-3" edge="1" parent="1" source="3R4THzl1qE5urAU3EPJZ-11" style="endArrow=diamond;startArrow=diamond;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;startFill=1;endFill=0;" target="3R4THzl1qE5urAU3EPJZ-7" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
               <mxPoint x="1690" y="770" />
@@ -94,7 +94,7 @@
             <mxPoint x="1200" y="770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ca7dqOzyg-RY5VkRo6NH-6" edge="1" parent="1" source="3R4THzl1qE5urAU3EPJZ-11" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="3R4THzl1qE5urAU3EPJZ-19" value="">
+        <mxCell id="Ca7dqOzyg-RY5VkRo6NH-6" edge="1" parent="1" source="3R4THzl1qE5urAU3EPJZ-11" style="endArrow=diamond;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;endFill=1;" target="3R4THzl1qE5urAU3EPJZ-19" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
               <mxPoint x="1470" y="1080" />
@@ -104,7 +104,7 @@
             <mxPoint x="980" y="1080" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yu9ImanBDA_fd_7K0FOV-1" edge="1" parent="1" source="3R4THzl1qE5urAU3EPJZ-15" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="3R4THzl1qE5urAU3EPJZ-19" value="">
+        <mxCell id="yu9ImanBDA_fd_7K0FOV-1" edge="1" parent="1" source="3R4THzl1qE5urAU3EPJZ-15" style="endArrow=diamond;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;endFill=1;" target="3R4THzl1qE5urAU3EPJZ-19" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="1110" y="1100" as="sourcePoint" />
             <mxPoint x="1160" y="1050" as="targetPoint" />
