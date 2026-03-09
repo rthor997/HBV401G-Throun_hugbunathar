@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 OPR/127.0.0.0" version="29.6.1">
   <diagram name="Page-1" id="LZ6W5VIWP752VphTHwSl">
-    <mxGraphModel dx="1201" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1151" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -126,6 +126,18 @@
             <mxPoint x="400" y="200" as="sourcePoint" />
             <mxPoint x="520" y="150" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1re6_O865SLCB2xOsk5F-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Auka methods" vertex="1">
+          <mxGeometry height="420" width="210" x="1070" y="361" as="geometry" />
+        </mxCell>
+        <mxCell id="1re6_O865SLCB2xOsk5F-2" parent="1re6_O865SLCB2xOsk5F-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="210" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1re6_O865SLCB2xOsk5F-3" parent="1re6_O865SLCB2xOsk5F-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="210" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="1re6_O865SLCB2xOsk5F-4" parent="1re6_O865SLCB2xOsk5F-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;(review)&lt;/div&gt;+ getReview(): Review&lt;div&gt;(hotel)&lt;br&gt;&lt;div&gt;+ addRoom(Room room):&amp;nbsp;&lt;div&gt;+ addReview(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Review review&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;):&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ getAmenities(): List&amp;lt;String&amp;gt;&lt;/div&gt;&lt;div&gt;+ getHotel(): Hotel&lt;/div&gt;&lt;div&gt;+ getLocation(): String&lt;/div&gt;&lt;div&gt;+ getReviews(): List&amp;lt;Review&amp;gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;(Room)&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&amp;nbsp;&lt;/span&gt;getNumberOfRooms(): Integer&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+&amp;nbsp;&lt;/span&gt;getRoomType(): String&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ getNumberOfBeds(): Integer&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ getImages(): List&amp;lt;String&amp;gt;&lt;/div&gt;&lt;div&gt;+ getPricePerDay(): Double&lt;/div&gt;&lt;/div&gt;&lt;div&gt;(Booking)&lt;/div&gt;&lt;div&gt;+ getBooking(Booking booking)&lt;/div&gt;&lt;div&gt;(customer)&lt;/div&gt;&lt;div&gt;+ addBooking(Booking booking):&lt;br&gt;&lt;div&gt;+ getPreviousBookings(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;List&amp;lt;Booking&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;):&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="360" width="210" y="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
