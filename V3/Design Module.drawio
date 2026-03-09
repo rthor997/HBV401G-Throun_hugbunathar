@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 OPR/127.0.0.0" version="29.6.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="Page-1" id="LZ6W5VIWP752VphTHwSl">
-    <mxGraphModel dx="1625" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1971" dy="1012" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -33,7 +33,7 @@
           <mxGeometry height="8" width="220" y="140" as="geometry" />
         </mxCell>
         <mxCell id="5ROFU_9KYfn26_Rhk-rD-34" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Review" vertex="1">
-          <mxGeometry height="238" width="220" x="150" y="474" as="geometry" />
+          <mxGeometry height="238" width="220" x="260" y="474" as="geometry" />
         </mxCell>
         <mxCell id="5ROFU_9KYfn26_Rhk-rD-35" parent="5ROFU_9KYfn26_Rhk-rD-34" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Stars: Integer&lt;div&gt;+ Title: String&lt;/div&gt;&lt;div&gt;+ ReviewText: String&lt;/div&gt;&lt;div&gt;+ Hotel: String&lt;/div&gt;&lt;div&gt;+ Room: Room&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="114" width="220" y="26" as="geometry" />
@@ -68,15 +68,6 @@
         <mxCell id="5ROFU_9KYfn26_Rhk-rD-45" parent="5ROFU_9KYfn26_Rhk-rD-42" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ bookRoom(Integer roomNumber)&lt;div&gt;+ isbooked(): Boolean&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ hasBalcony&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ hasKitchen(): Boolean&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="162" width="220" y="168" as="geometry" />
         </mxCell>
-        <mxCell id="5ROFU_9KYfn26_Rhk-rD-46" edge="1" parent="1" source="5ROFU_9KYfn26_Rhk-rD-34" style="endArrow=diamond;startArrow=diamond;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;startFill=1;endFill=0;exitX=0.576;exitY=-0.002;exitDx=0;exitDy=0;exitPerimeter=0;" target="5ROFU_9KYfn26_Rhk-rD-30" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <Array as="points">
-              <mxPoint x="277" y="223" />
-            </Array>
-            <mxPoint x="510" y="370" as="sourcePoint" />
-            <mxPoint x="1350" y="180" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="5ROFU_9KYfn26_Rhk-rD-47" edge="1" parent="1" source="5ROFU_9KYfn26_Rhk-rD-42" style="endArrow=diamond;startArrow=diamond;html=1;rounded=0;startFill=1;endFill=0;exitX=0.369;exitY=-0.001;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.047;entryY=0.909;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ROFU_9KYfn26_Rhk-rD-32" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
@@ -84,6 +75,15 @@
             </Array>
             <mxPoint x="910" y="410" as="sourcePoint" />
             <mxPoint x="640" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ROFU_9KYfn26_Rhk-rD-46" edge="1" parent="1" source="5ROFU_9KYfn26_Rhk-rD-34" style="endArrow=diamond;startArrow=diamond;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;startFill=1;endFill=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="5ROFU_9KYfn26_Rhk-rD-30" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="220" />
+            </Array>
+            <mxPoint x="370" y="440" as="sourcePoint" />
+            <mxPoint x="1350" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1re6_O865SLCB2xOsk5F-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Auka methods" vertex="1">
@@ -100,6 +100,9 @@
         </mxCell>
         <mxCell id="maCPrzEqiiCKkNt-bmaY-1" edge="1" parent="1" source="5ROFU_9KYfn26_Rhk-rD-42" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" target="5ROFU_9KYfn26_Rhk-rD-34" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="350" />
+            </Array>
             <mxPoint x="1150" y="480" as="sourcePoint" />
             <mxPoint x="1200" y="430" as="targetPoint" />
           </mxGeometry>
