@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="Page-1" id="LZ6W5VIWP752VphTHwSl">
-    <mxGraphModel dx="1481" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="718" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -199,7 +199,7 @@
           <mxGeometry height="172" width="220" y="148" as="geometry" />
         </mxCell>
         <mxCell id="hdhMpIGd8-LGUIRCNYRw-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="CustomerDB" vertex="1">
-          <mxGeometry height="270" width="220" x="1365" y="1710" as="geometry">
+          <mxGeometry height="338" width="220" x="1365" y="1710" as="geometry">
             <mxRectangle height="30" width="90" x="980" y="770" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -209,8 +209,8 @@
         <mxCell id="hdhMpIGd8-LGUIRCNYRw-11" parent="hdhMpIGd8-LGUIRCNYRw-9" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="220" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="hdhMpIGd8-LGUIRCNYRw-12" parent="hdhMpIGd8-LGUIRCNYRw-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;div&gt;+ select() : Customer[]&lt;/div&gt;&lt;div&gt;+ getCustomerById(customerId: String)&lt;/div&gt;&lt;div&gt;+ getCustomerByEmail(email: String)&lt;/div&gt;&lt;div&gt;+ saveCustomer(customer: Customer)&lt;/div&gt;&lt;div&gt;+ updateCustomer(customer: Customer)&lt;/div&gt;&lt;div&gt;+ deleteCustomer(customerId : String)&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="122" width="220" y="148" as="geometry" />
+        <mxCell id="hdhMpIGd8-LGUIRCNYRw-12" parent="hdhMpIGd8-LGUIRCNYRw-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;div&gt;+ select() : Customer[]&lt;/div&gt;&lt;div&gt;+ getCustomerById(customerId: String): Customer | null&lt;/div&gt;&lt;div&gt;+ getCustomerByEmail(email: String): Customer | null&lt;/div&gt;&lt;div&gt;+ saveCustomer(customer: Customer) Customer&lt;/div&gt;&lt;div&gt;+ updateCustomer(customer: Customer): Customer&lt;/div&gt;&lt;div&gt;+ deleteCustomer(customerId : String) boolean&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="220" y="148" as="geometry" />
         </mxCell>
         <mxCell id="hdhMpIGd8-LGUIRCNYRw-13" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="HotelDB" vertex="1">
           <mxGeometry height="290" width="220" x="740" y="1710" as="geometry">
