@@ -26,7 +26,7 @@
         <mxCell id="5ROFU_9KYfn26_Rhk-rD-30" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Hotel" vertex="1">
           <mxGeometry height="148" width="220" x="630" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="5ROFU_9KYfn26_Rhk-rD-31" parent="5ROFU_9KYfn26_Rhk-rD-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- hotel_ID: String&lt;div&gt;- name: String&lt;/div&gt;&lt;div&gt;- location: String&lt;/div&gt;&lt;div&gt;- allowsPets: Boolean&lt;/div&gt;&lt;div&gt;- amenities: List&amp;lt;String&amp;gt;&lt;/div&gt;&lt;div&gt;- rooms: List&amp;lt;Room&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="5ROFU_9KYfn26_Rhk-rD-31" parent="5ROFU_9KYfn26_Rhk-rD-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- hotel_ID: String&lt;div&gt;- name: String&lt;/div&gt;&lt;div&gt;- location: String&lt;/div&gt;&lt;div&gt;- allowsPets: Boolean&lt;/div&gt;&lt;div&gt;- rooms: List&amp;lt;Room&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="114" width="220" y="26" as="geometry" />
         </mxCell>
         <mxCell id="5ROFU_9KYfn26_Rhk-rD-32" parent="5ROFU_9KYfn26_Rhk-rD-30" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=none;" value="" vertex="1">
@@ -157,7 +157,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RzHGVKlE79FSdvq7BmXI-31" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="HotelController" vertex="1">
-          <mxGeometry height="240" width="230" x="740" y="1049" as="geometry">
+          <mxGeometry height="250" width="230" x="740" y="1049" as="geometry">
             <mxRectangle height="30" width="90" x="980" y="770" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -167,8 +167,8 @@
         <mxCell id="RzHGVKlE79FSdvq7BmXI-33" parent="RzHGVKlE79FSdvq7BmXI-31" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="230" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="RzHGVKlE79FSdvq7BmXI-34" parent="RzHGVKlE79FSdvq7BmXI-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ searchHotel(Location)&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ filterHotels(location: String, checkInDate: LocalDate, checkOutDate: LocalDate, maxPrice: Double, amenities: List&amp;lt;String&amp;gt;, allowPets: Boolean)&lt;/div&gt;&lt;div&gt;+ getHotelDetails(hotel_ID: String)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="92" width="230" y="148" as="geometry" />
+        <mxCell id="RzHGVKlE79FSdvq7BmXI-34" parent="RzHGVKlE79FSdvq7BmXI-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ searchHotel(location: String): String&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ filterHotels(location: String, checkInDate: LocalDate, checkOutDate: LocalDate, maxPrice: Double, allowPets: Boolean): Hotel[]&lt;/div&gt;&lt;div&gt;+ getHotelDetails(hotel_ID: String): Hotel&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="102" width="230" y="148" as="geometry" />
         </mxCell>
         <mxCell id="3RmAICQ4OQUvRMKtxqLU-1" edge="1" parent="1" source="5ROFU_9KYfn26_Rhk-rD-41" style="endArrow=diamond;html=1;rounded=0;entryX=0.473;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.864;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;" target="RzHGVKlE79FSdvq7BmXI-12" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
