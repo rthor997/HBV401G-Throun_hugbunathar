@@ -185,7 +185,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hdhMpIGd8-LGUIRCNYRw-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="BookingDB" vertex="1">
-          <mxGeometry height="320" width="220" x="1060" y="1710" as="geometry">
+          <mxGeometry height="340" width="220" x="1060" y="1710" as="geometry">
             <mxRectangle height="30" width="90" x="980" y="770" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -195,8 +195,8 @@
         <mxCell id="hdhMpIGd8-LGUIRCNYRw-7" parent="hdhMpIGd8-LGUIRCNYRw-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="220" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="hdhMpIGd8-LGUIRCNYRw-8" parent="hdhMpIGd8-LGUIRCNYRw-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ getAllBookings() : Booking[]&lt;/div&gt;&lt;div&gt;+ getBookingById(bookingId): Booking&lt;/div&gt;&lt;div&gt;+ getBookingsByCustomer(customerID: String): Booking[]&lt;/div&gt;&lt;div&gt;+ getBookingByRoom(roomID: String): Booking&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ updateBooking(bookingID: String): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ cancelBooking(bookingID: String): void&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="172" width="220" y="148" as="geometry" />
+        <mxCell id="hdhMpIGd8-LGUIRCNYRw-8" parent="hdhMpIGd8-LGUIRCNYRw-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ getAllBookings() : Booking[]&lt;/div&gt;&lt;div&gt;+ getBookingById(bookingId): Booking&lt;/div&gt;&lt;div&gt;+ getBookingsByCustomer(customerID: String): Booking[]&lt;/div&gt;&lt;div&gt;+ getBookingByRoom(roomID: String): Booking&lt;/div&gt;&lt;div&gt;+ saveBooking(&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ updateBooking(bookingID: String): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ cancelBooking(bookingID: String): void&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="192" width="220" y="148" as="geometry" />
         </mxCell>
         <mxCell id="hdhMpIGd8-LGUIRCNYRw-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="CustomerDB" vertex="1">
           <mxGeometry height="338" width="220" x="1365" y="1710" as="geometry">
