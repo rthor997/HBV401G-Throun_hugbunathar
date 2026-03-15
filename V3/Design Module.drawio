@@ -122,7 +122,7 @@
         <mxCell id="RzHGVKlE79FSdvq7BmXI-15" parent="RzHGVKlE79FSdvq7BmXI-12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ createBooking(): void&lt;div&gt;+ cancelBooking(): Boolean&lt;/div&gt;&lt;div&gt;+ getBookingDetails(bookingId: String): Booking&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="220" y="148" as="geometry" />
         </mxCell>
-        <mxCell id="RzHGVKlE79FSdvq7BmXI-16" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="RoomsController" vertex="1">
+        <mxCell id="RzHGVKlE79FSdvq7BmXI-16" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="RoomController" vertex="1">
           <mxGeometry height="238" width="220" x="410" y="1049" as="geometry">
             <mxRectangle height="30" width="90" x="980" y="770" as="alternateBounds" />
           </mxGeometry>
