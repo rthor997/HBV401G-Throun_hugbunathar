@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="Page-1" id="LZ6W5VIWP752VphTHwSl">
-    <mxGraphModel dx="744" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="992" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -109,7 +109,7 @@
           <mxGeometry height="30" width="100" x="30" y="10" as="geometry" />
         </mxCell>
         <mxCell id="RzHGVKlE79FSdvq7BmXI-12" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="BookingController" vertex="1">
-          <mxGeometry height="238" width="220" x="1060" y="1049" as="geometry">
+          <mxGeometry height="260" width="220" x="1060" y="1049" as="geometry">
             <mxRectangle height="30" width="90" x="980" y="770" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -120,7 +120,7 @@
           <mxGeometry height="8" width="220" y="140" as="geometry" />
         </mxCell>
         <mxCell id="RzHGVKlE79FSdvq7BmXI-15" parent="RzHGVKlE79FSdvq7BmXI-12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ createBooking(customerID: String, roomID: String, checkInDate: LocalDate, checkOutDate: LocalDate)&lt;div&gt;+ cancelBooking(bookingId: String): void&lt;/div&gt;&lt;div&gt;+ getBookingDetails(bookingId): Booking&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="220" y="148" as="geometry" />
+          <mxGeometry height="112" width="220" y="148" as="geometry" />
         </mxCell>
         <mxCell id="RzHGVKlE79FSdvq7BmXI-16" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="RoomController" vertex="1">
           <mxGeometry height="250" width="220" x="410" y="1049" as="geometry">
