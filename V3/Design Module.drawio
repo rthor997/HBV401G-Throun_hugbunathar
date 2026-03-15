@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 OPR/127.0.0.0" version="29.6.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="Page-1" id="LZ6W5VIWP752VphTHwSl">
-    <mxGraphModel dx="2378" dy="1314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="992" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,7 +18,7 @@
         <mxCell id="5ROFU_9KYfn26_Rhk-rD-29" parent="5ROFU_9KYfn26_Rhk-rD-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="220" y="148" as="geometry" />
         </mxCell>
-        <mxCell id="RzHGVKlE79FSdvq7BmXI-29" edge="1" parent="1" source="5ROFU_9KYfn26_Rhk-rD-30" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;endArrow=classic;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RzHGVKlE79FSdvq7BmXI-31">
+        <mxCell id="RzHGVKlE79FSdvq7BmXI-29" edge="1" parent="1" source="5ROFU_9KYfn26_Rhk-rD-30" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;endArrow=diamond;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RzHGVKlE79FSdvq7BmXI-31">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="850" y="880" as="targetPoint" />
           </mxGeometry>
@@ -29,7 +29,7 @@
         <mxCell id="5ROFU_9KYfn26_Rhk-rD-31" parent="5ROFU_9KYfn26_Rhk-rD-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ id: String&lt;div&gt;+ Name: String&lt;/div&gt;&lt;div&gt;+ Location: String&lt;/div&gt;&lt;div&gt;+ allowsPets: Boolean&lt;/div&gt;&lt;div&gt;+ amenities: List&amp;lt;String&amp;gt;&lt;/div&gt;&lt;div&gt;+ Rooms: List&amp;lt;Room&amp;gt;&lt;/div&gt;&lt;div&gt;+ Reviews: List&amp;lt;Review&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="114" width="220" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="5ROFU_9KYfn26_Rhk-rD-32" parent="5ROFU_9KYfn26_Rhk-rD-30" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+        <mxCell id="5ROFU_9KYfn26_Rhk-rD-32" parent="5ROFU_9KYfn26_Rhk-rD-30" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=none;" value="" vertex="1">
           <mxGeometry height="8" width="220" y="140" as="geometry" />
         </mxCell>
         <mxCell id="5ROFU_9KYfn26_Rhk-rD-38" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Booking" vertex="1">
@@ -170,7 +170,7 @@
         <mxCell id="RzHGVKlE79FSdvq7BmXI-34" parent="RzHGVKlE79FSdvq7BmXI-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ searchHotel(Location: String) : Hotel[]&lt;/div&gt;&lt;div&gt;+ filterHotels()&lt;/div&gt;&lt;div&gt;+ getAvailableRooms()&lt;/div&gt;" vertex="1">
           <mxGeometry height="92" width="230" y="148" as="geometry" />
         </mxCell>
-        <mxCell id="3RmAICQ4OQUvRMKtxqLU-1" edge="1" parent="1" source="5ROFU_9KYfn26_Rhk-rD-41" style="endArrow=classic;html=1;rounded=0;entryX=0.473;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.864;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;" target="RzHGVKlE79FSdvq7BmXI-12" value="">
+        <mxCell id="3RmAICQ4OQUvRMKtxqLU-1" edge="1" parent="1" source="5ROFU_9KYfn26_Rhk-rD-41" style="endArrow=diamond;html=1;rounded=0;entryX=0.473;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.864;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;" target="RzHGVKlE79FSdvq7BmXI-12" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="1160" y="590" as="sourcePoint" />
             <mxPoint x="1140" y="660" as="targetPoint" />
@@ -190,7 +190,7 @@
         <mxCell id="hdhMpIGd8-LGUIRCNYRw-4" parent="hdhMpIGd8-LGUIRCNYRw-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;div&gt;+ select() : Room[]&lt;/div&gt;&lt;div&gt;+ getRoomById(roomId)&lt;/div&gt;&lt;div&gt;+ getRoomsByHotel(hotelId)&lt;/div&gt;&lt;div&gt;+ getAvailableRooms(checkInDate, checkOutDate, guests)&lt;/div&gt;&lt;div&gt;+ saveRoom(room)&lt;/div&gt;&lt;div&gt;+ updateRoom(room)&lt;/div&gt;&lt;div&gt;+ deleteRoom(roomId)&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="152" width="220" y="148" as="geometry" />
         </mxCell>
-        <mxCell id="3RmAICQ4OQUvRMKtxqLU-2" edge="1" parent="1" source="5ROFU_9KYfn26_Rhk-rD-29" style="endArrow=classic;html=1;rounded=0;entryX=0.576;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.536;exitY=0.989;exitDx=0;exitDy=0;exitPerimeter=0;" target="RzHGVKlE79FSdvq7BmXI-24" value="">
+        <mxCell id="3RmAICQ4OQUvRMKtxqLU-2" edge="1" parent="1" source="5ROFU_9KYfn26_Rhk-rD-29" style="endArrow=diamond;html=1;rounded=0;entryX=0.576;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.536;exitY=0.989;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;" target="RzHGVKlE79FSdvq7BmXI-24" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="1490" y="560" as="sourcePoint" />
             <mxPoint x="1494" y="1022" as="targetPoint" />
@@ -238,7 +238,7 @@
         <mxCell id="hdhMpIGd8-LGUIRCNYRw-16" parent="hdhMpIGd8-LGUIRCNYRw-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;div&gt;+ select() : Hotel[]&lt;/div&gt;&lt;div&gt;+ getHotelById(hotelId)&lt;/div&gt;&lt;div&gt;+ getAllHotels()&lt;/div&gt;&lt;div&gt;+ searchHotels(location, amenities, allowsPets)&lt;/div&gt;&lt;div&gt;+ saveHotel(hotel)&lt;/div&gt;&lt;div&gt;+ updateHotel(hotel)&lt;/div&gt;&lt;div&gt;+ deleteHotel(hotelId)&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="142" width="220" y="148" as="geometry" />
         </mxCell>
-        <mxCell id="3RmAICQ4OQUvRMKtxqLU-3" edge="1" parent="1" source="5ROFU_9KYfn26_Rhk-rD-45" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.07;exitY=1.009;exitDx=0;exitDy=0;exitPerimeter=0;" target="RzHGVKlE79FSdvq7BmXI-16" value="">
+        <mxCell id="3RmAICQ4OQUvRMKtxqLU-3" edge="1" parent="1" source="5ROFU_9KYfn26_Rhk-rD-45" style="endArrow=diamond;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.07;exitY=1.009;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;" target="RzHGVKlE79FSdvq7BmXI-16" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="580" y="780" as="sourcePoint" />
             <mxPoint x="584" y="1242" as="targetPoint" />
