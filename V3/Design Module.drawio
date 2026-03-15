@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="Page-1" id="LZ6W5VIWP752VphTHwSl">
-    <mxGraphModel dx="1303" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="393" dy="261" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -235,7 +235,7 @@
         <mxCell id="hdhMpIGd8-LGUIRCNYRw-15" parent="hdhMpIGd8-LGUIRCNYRw-13" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="220" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="hdhMpIGd8-LGUIRCNYRw-16" parent="hdhMpIGd8-LGUIRCNYRw-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;div&gt;+ select() : Hotel[]&lt;/div&gt;&lt;div&gt;+ getHotelById(hotel_ID)&lt;/div&gt;&lt;div&gt;+ getAllHotels()&lt;/div&gt;&lt;div&gt;+ searchHotels(location, allowsPets)&lt;/div&gt;&lt;div&gt;+ saveHotel(hotel)&lt;/div&gt;&lt;div&gt;+ updateHotel(hotel)&lt;/div&gt;&lt;div&gt;+ deleteHotel(hotelId)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="hdhMpIGd8-LGUIRCNYRw-16" parent="hdhMpIGd8-LGUIRCNYRw-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ getAllHotels()&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;: Hotel[]&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ getHotelById(hotel_ID): Hotel&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ searchHotels(location: String): Hotel[]&lt;/div&gt;&lt;div&gt;+ saveHotel(hotel_ID: String): void&lt;/div&gt;&lt;div&gt;+ updateHotel(hotel): void&lt;/div&gt;&lt;div&gt;+ deleteHotel(hotelId): void&lt;/div&gt;" vertex="1">
           <mxGeometry height="142" width="220" y="148" as="geometry" />
         </mxCell>
         <mxCell id="3RmAICQ4OQUvRMKtxqLU-3" edge="1" parent="1" source="5ROFU_9KYfn26_Rhk-rD-45" style="endArrow=diamond;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.07;exitY=1.009;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;" target="RzHGVKlE79FSdvq7BmXI-16" value="">
